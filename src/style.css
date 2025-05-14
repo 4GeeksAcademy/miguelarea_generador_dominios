@@ -1,5 +1,8 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid black; padding: 8px; text-align: left; }
+tbody { display: block; max-height: 400px; overflow-y: auto; } 
+thead, tbody tr { display: table; width: 100%; table-layout: fixed; }
+.columna { width: 20%; box-sizing: border-box; } 
