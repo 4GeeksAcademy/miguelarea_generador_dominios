@@ -8,11 +8,11 @@ const tablaDominiosBody = document.querySelector('#tablaDominios tbody');
 
 function generarDominios() {
   dominios.length = 0;
-  for (const pronombre of pronombres) {
-    for (const adjetivo of adjetivos) {
-      for (const sustantivo of sustantivos) {
-        for (const extension of extensiones) {
-          const dominioSinSeparador = pronombre + adjetivo + sustantivo + extension;
+  for (const unPronombre of pronombres) {
+    for (const unAdjetivo of adjetivos) {
+      for (const unSustantivo of sustantivos) {
+        for (const unaExtension of extensiones) {
+          const dominioSinSeparador = unPronombre + unAdjetivo + unSustantivo + unaExtension;
           dominios.push(dominioSinSeparador);
         }
       }
